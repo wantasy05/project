@@ -1,0 +1,289 @@
+body,h1,h2,h3,h4,h5,h6,ul,li,ol,p,pre,dl,dt,dd{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+}
+body{
+    font:14px "microsoft yahei",Arial;
+    color: reb(93,93,93);
+    background:url(../images/bg.jpg) 50% 0 no-repeat scroll rgb(227,227,229);
+}
+.fl{
+    float:left;
+}
+.fr{
+    float: right;
+}
+*{
+    box-sizing:border-box;
+}
+img{
+    vertical-align:middle;
+}
+.clear{
+    clear:both;
+}
+.header{
+    width: 1000px;
+    margin: auto;
+}
+.header h1{
+    line-height:70px;
+    color: #000;
+    margin-left: 20px;
+    font-size: "宋体";
+}
+.header p{
+    font-size: 18px;
+    color: #db5e5e;
+    font-weight: 500px;
+}
+.nav{
+    width:1000px;
+    margin: 20px auto;
+    overflow:hidden;
+}
+.nav ul{
+    float:left;
+}
+.nav ul li{
+    float: left;
+    line-height: 30px;
+    text-align:center;
+    margin-right: 2px;
+}
+.nav ul li a{
+    color: #506f70;
+    font-size: 16px;
+    display: block;
+    width:140px;
+    height: 30px;
+
+}
+.nav ul li a:hover,.nav ul li.hover a{
+    border-radius:3px;
+    color:#fff;
+    background:#829696;
+}
+.content{
+    width: 1000px;
+    margin: 0 auto;
+}
+.content .content-l{
+    float:left;
+    width: 730px;
+    border-radius: 2px;
+    background: #fff;
+    padding: 0 8px;
+    
+}
+.content  .recommend{
+    height:68px;
+    margin: 0 10px;
+    background: url("../images/r_line.jpg") bottom left repeat-x;
+}
+.content .content-l .recommend h2{
+    background: url("../images/tj.png") no-repeat;
+    padding-left: 60px;
+    line-height:68px;
+    color: #d242df;
+    font-size: 18px;
+}
+.content .content-l .recommend h2 span{
+    color: #3798a5;
+    padding-left:3px;
+}
+.content .content-l .content-text{
+    margin-top: 5px;
+}
+.content .content-l .content-text .rec-content{
+    margin: 5px 0 10px 0;
+    color: #1d1a1a;
+}
+.content .content-l .content-text .rec-content h3 {
+    overflow: hidden;
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    color:#325edb;
+    margin-bottom:5px;
+}
+.content .content-l .content-text .rec-content h3 a{
+    color: #d3535d;
+    transition:margin-left 0.5s linear;
+}
+.content .content-l .content-text .rec-content h3 a:hover{
+    margin-left:25px;
+}
+.content .content-l .content-text .rec-content dl{
+    overflow: hidden;
+}
+.content .content-l .content-text .rec-content dl dt{
+    float: left;
+    border: 1px solid #ccc;
+}
+.content .content-l .content-text .rec-content dl dt img{
+    padding:2px;
+}
+.content .content-l .content-text .rec-content dl dd{
+    float: left;
+    overflow: hidden;
+    width:505px;
+    margin-left:5px;
+}
+.content .content-l .content-text .rec-content dl dd .dd-text1{
+    overflow:hidden;
+    line-height:30px;
+    margin-top: 10px;
+}
+.content .content-l .content-text .rec-content dl dd .dd-text1 .author{
+    width: 85px;
+    background:url("../images/tx.jpg") 5px 7px no-repeat;
+    padding-left: 25px;
+    margin-left: 20px;
+}
+.content .content-l .content-text .rec-content dl dd .dd-text1 .time{
+    width: 145px;
+    background: url("../images/sj.jpg") 5px 7px no-repeat;
+    padding-left:25px;
+}
+.content .content-l .content-text .rec-content dl dd .dd-text1 .sort{
+    width: 125px;
+    text-align: center;
+}
+.content .content-l .content-text .rec-content dl dd .dd-text1 .sort a:hover{
+    color:red;
+}
+.content .content-l .content-text .rec-content dl dd .dd-text1 .read a{
+    color: #f55522;
+    display:block;
+    width: 80px;
+    line-height: 22px;
+    text-align: center;
+    border: 1px solid #ac6363;
+    border-radius:2px;
+    margin: 3px 0 0 20px;
+}
+.content .content-r{
+    width:260px;
+    
+}
+.content .content-r .blogger{
+    border: 1px solid #ccc;
+    background: #fff;
+}
+.content .content-r .blogger h2{
+    width: 240px;
+    margin: 0 auto;
+    font-size: 16px;
+    color:#333;
+    padding: 10px 0 3px 10px;
+    border-bottom:1px solid #555;
+}
+.content .content-r .blogger img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.content .content-r .blogger ul{
+    padding-left: 30px;
+}
+.content .content-r .blogger ul li:last-child{
+    margin-left: -7px;
+    overflow:hidden;
+}
+.content .content-r .blogger ul i.online{
+    float:left;
+    width:93px;
+    height: 30px;
+    background:url("../images/qq_bg.png") no-repeat;
+}
+
+.content .content-r .blogger ul i.qq{
+    float: left;
+    margin-left: 20px;
+    width: 97px;
+    height: 25px;
+    background:url("../images/qq_bg.png") -93px 0 no-repeat;
+}
+.content .content-r .column{
+    background: #fff;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+
+}
+.content .content-r .column .title{
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1px;
+
+}
+.content .content-r .column .title li{
+    float: left;
+    width: 86px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.content .content-r .column .title .active{
+    background:#fff;
+    border:1px solid #ccc;
+    border-bottom-color: transparent;
+    border-top: 2px solid #f00;
+    margin-top: -2px;
+}
+.content .content-r .column .show{
+    background:url("../images/list.png") 5px 5px no-repeat;
+    padding-bottom: 5px;
+}
+.content .content-r .column .show ul li{
+    padding-left:25px;
+    line-height:29px;
+}
+.content .content-r .column .show ul li a{
+    transition: margin-left .5s linear;
+}
+.content .content-r .column .show ul li a:hover{
+    margin-left: 12px;
+    color: red;
+}
+.content .content-r .link{
+    height: 180px;
+    border:1px solid #ccc;
+    margin-top: 5px;
+    background: #fff;
+
+}
+.content .content-r .link h2{
+    font-size:16px;
+    color: #444;
+    padding:5px 0 3px 10px;
+    border-bottom: 1px solid #f00;
+
+}
+.content .content-r .link p{
+    padding: 10px 0 0 15px;
+
+}
+.content .content-r .link p a{
+    color:#444;
+
+}
+.content .content-r .link p a:hover{
+    color:red;
+}
+.footer{
+    width:1000px;
+    height:50px;
+    margin: 10px auto;
+    padding-top: 5px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    color: #231c25;
+}
+
+

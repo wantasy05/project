@@ -1,0 +1,346 @@
+/* 关于我 */
+.content .about-me{
+    width:730px;
+    height: 500px;
+    background: #fff;
+}
+.content .about-me .location{
+    line-height: 30px;
+    background:url("../images/weizi.png") 7px 5px no-repeat;
+    border-bottom:1px solid #ccc;
+}
+.content .about-me .location .location-text{
+    font-size:16px;
+    color:#444;
+    padding-left:25px;
+}
+.content .about-me .location .location-text a:hover{
+    color:red;
+}
+.content .about-me .location .location-text h2{
+    display: inline-block;
+    font-size:16px;
+    color:#f00e71;
+    font-weight:500;
+}
+.content .about-me .about-me-text{
+    padding:10px 15px;
+}
+/*碎言碎语*/
+
+.content .say .location{
+    width: 1000px;
+    line-height: 30px;
+    /* background:url("../images/weizi.png") 7px 5px no-repeat; */
+    border-bottom:1px solid #ccc;
+    background: #fff;
+
+}
+.content .say .location .location-text{
+    font-size:16px;
+    color:#444;
+    padding-left:25px;
+    background:url("../images/weizi.png") 7px 5px no-repeat;
+}
+.content .say .location .location-text a:hover{
+    color:red;
+
+}
+.content .say .location .location-text h2{
+    display: inline-block;
+    font-size:16px;
+    color:#f00e71;
+    font-weight:500;
+}
+.content .say .say-box{
+    padding: 20px;
+    height: 90px;
+    margin: 10px 0;
+    width: 740px;
+    border-radius: 5px;
+    font-family: "宋体";
+    background: #f8f8f8;
+    position:relative;
+}
+.content .say .say-box:hover{
+    background:#f4f2f2;
+    color:#333;
+    text-shadow:1px 1px 1px #ddd;
+}
+.content .say .say-box:hover::before{
+    border-top-color: #cecccd;
+    border-left-color: #cecccd;
+}
+.content .say .say-box::before{
+    content:"";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-top-color: #fff;
+    border-left-color: #FFF;
+    left: 740px;
+    top: 23px;
+}
+.content .say .say-box::after{
+    content:"";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 15px;
+    border-radius: 50%;
+    left: 775px;
+    background: #ccccce;
+    border: 2px solid #fff;
+    transition: all 0.5s;
+}
+.content .say .say-box:hover::after{
+    background: #999;
+    border: 2px solid pink;
+}
+.content .say .say-box .date{
+    position:absolute;
+    left: 810px;
+    top: 15px;
+    width: 125px;
+    line-height: 35px;
+    background: #5ea51b;
+    border-radius: 0 30px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+/*个人日记*/
+
+.content .diary{
+    width:730px;
+    /* height: 500px; */
+    background: #fff;
+} */
+.content .diary .location{
+    /* width:950px; */
+    line-height: 30px;
+    /* background:url("../images/weizi.png") 7px 5px no-repeat; */
+    border-bottom:1px solid #ccc;
+    background: #fff;
+}
+.content .diary .location .location-text{
+    font-size:16px;
+    color:#444;
+    padding-left:25px;
+    background:url("../images/weizi.png") 7px 5px no-repeat;
+}
+.content .diary .location .location-text a:hover{
+    color:red;
+
+}
+.content .diary .location .location-text h2{
+    display: inline-block;
+    font-size:16px;
+    color:#f00e71;
+    font-weight:500;
+}
+.content .diary-text{
+    height: 145px;
+}
+.content .diary-text .blogger-icon{
+    width:120px;
+    height: 145px;
+    opacity: .8;
+}
+.content .diary-text .text{
+    width: 530px;
+    height: 110px;
+    background: #fff;
+    border: 1px solid #e0dfdf;
+    opacity: .8;
+    border-radius: 5px;
+    padding: 10px;
+    color: #4f4f4f;
+    position: relative;
+    margin: 20px 30px 0 20px;
+}
+.content .diary-text .blogger-icon img{
+    border-radius: 60px;
+    margin-top: 14px;
+    margin-left: 12px;
+}
+.content .diary-text .blogger-icon .text img{
+    position:absolute;
+    top: 40px;
+    left: -13px;
+    z-index:2;
+}
+@-webkit-keyframes bounce{
+	0%{
+		opacity:0;
+		-webkit-transform:scale(.3);
+	}
+	50%{
+		opacity:1;
+		-webkit-transform:scale(1.05);
+	}
+	70%{
+		-webkit-transform:scale(.9);
+	}
+	100% {
+		-webkit-transform:scale(1);
+	}
+}
+
+@-moz-keyframes bounce{
+	0%{
+		opacity:0;
+		-moz-transform:scale(.3);
+	}
+	50%{
+		opacity:1;
+		-moz-transform:scale(1.05);
+	}
+	70%{
+		-moz-transform:scale(.9);
+	}
+	100%{
+		-moz-transform:scale(1);
+	}
+}
+
+@-ms-keyframes bounce{
+	0%{
+		opacity:0;
+		-ms-transform:scale(.3);
+	}
+	50%{
+		opacity:1;
+		-ms-transform:scale(1.05);
+	}
+	70%{
+		-ms-transform:scale(.9);
+	}
+	100%{
+		-ms-transform:scale(1);
+	}
+}
+
+@-o-keyframes bounce{
+	0%{
+		opacity:0;
+		-o-transform:scale(.3);
+	}
+	50%{
+		opacity:1;
+		-o-transform:scale(1.05);
+	}
+	70%{
+		-o-transform:scale(.9);
+	}
+	100%{
+		-o-transform:scale(1);
+	}
+}
+
+@keyframes bounce{
+	0%{
+		opacity:0;
+		transform:scale(.3);
+	}
+	50%{
+		opacity:1;
+		transform:scale(1.05);
+	}
+	70%{
+		transform:scale(.9);
+	}
+	100%{
+		transform:scale(1);
+	}
+}
+
+.bounce{
+	-webkit-animation:bounce 1s;
+	-moz-animation:bounce 1s;
+	-ms-animation:bounce 1s;
+	-o-animation:bounce 1s;
+    animation:bounce 1s;
+}
+/*相册展示*/
+.content .photo{   
+    width:100%;
+    background: #fff;
+}
+.content .photo .location{
+    border-bottom:1px solid #ccc;
+    line-height: 30px;
+    background: #fff;
+}
+.content .photo .location .location-text{
+    font-size:16px;
+    color:#444;
+    padding-left:25px;
+    background:url("../images/weizi.png") 7px 5px no-repeat;
+}
+.content .photo .location .location-text a:hover{
+    color:red;
+}
+.content .photo .location .location-text h1{
+    display: inline-block;
+    font-size:16px;
+    color:#f00e71;
+    font-weight:500; 
+}
+.content .photo-box{
+    box-shadow: 0 0 15px #909090;
+    padding: 10px 0 10px 35px;
+}
+.content .photo-box .grid .grid-item{
+    margin-top: 25px;
+}
+.content .photo-box .grid .grid-item img{
+    border-radius: 3px;
+
+}
+.content .photo-box .grid .grid-item img:hover{
+    position: relative;
+    top: -5px;
+    left: -5px;
+    cursor: pointer;
+}
+/*学无止境*/
+.content .content-l .location{
+    border-bottom:1px solid #ccc;
+    background: #fff;
+    line-height: 30px;
+}
+.content .content-l .location .location-text{
+    font-size:16px;
+    color:#444;
+    padding-left:25px;
+    background:url("../images/weizi.png") 7px 5px no-repeat;
+}
+.content .content-l .location .location-text a:hover{
+    color:red;
+}
+.content .content-l .location .location-text h2{
+    display: inline-block;
+    font-size:16px;
+    color:#f00e71;
+    font-weight:500; 
+}
+.content .learn-box{
+    padding: 0px;
+}
+.content .content-text{
+    padding:0 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

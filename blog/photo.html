@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>个人博客</title>
+    <link rel="stylesheet" href="css/index.css" >
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/index.js"></script>
+    </head>
+<body>
+    <header class="header">
+        <h1>个人博客</h1>
+        <p>青春是打开了，就和不上的书。人生是踏上了，就回不了头的路，爱情就是扔出了，就收不回的赌注。</p>
+    </header>
+    <div class="nav">
+        <ul >
+            <li><a href="index.html">首页</a></li>
+            <li><a href="about.html">关于我</a></li>
+            <li><a href="speak.html">碎言碎语</a></li>
+            <li><a href="diary.html">个人日记</a></li>
+            <li class="hover"><a href="photo.html">相册展示</a></li>
+            <li><a href="learn.html">学无止境</a></li>
+            <li><a href="leavr-words.html">留言板</a></li>
+        </ul>
+    </div>
+    <section class="content">
+            <div class="fl photo">
+                <div class="location">
+                    <div class="location-text">
+                        当前位置：
+                        <a href="index.html">首页</a>
+                        >
+                        <h1>相册展示</h1>
+                    </div>					
+                </div>
+                <div class="photo-box">
+                    <div class="grid">
+                        <div class="grid-item"><img src="images/photo/1.jpg"></div>
+                        <div class="grid-item"><img src="images/photo/2.jpg"></div>
+                        <div class="grid-item"><img src="images/photo/3.jpg"></div>
+                        <div class="grid-item"><img src="images/photo/4.jpg"></div>
+                        <div class="grid-item"><img src="images/photo/5.jpg"></div>
+                        <div class="grid-item"><img src="images/photo/6.jpg"></div>
+                        <div class="grid-item"><img src="images/photo/7.jpg"></div>
+                        <div class="grid-item"><img src="images/photo/8.jpg"></div>
+                        <div class="grid-item"><img src="images/photo/9.jpg"></div>	
+                        <div class="grid-item"><img src="images/photo/10.jpg"></div>	
+                        <div class="grid-item"><img src="images/photo/11.jpg"></div>	
+                        <div class="grid-item"><img src="images/photo/13.jpg"></div>	
+                        <div class="grid-item"><img src="images/photo/12.jpg"></div>	
+                        <div class="grid-item"><img src="images/photo/15.jpg"></div>	
+                        <div class="grid-item"><img src="images/photo/14.jpg"></div>	
+                        <div class="grid-item"><img src="images/photo/16.jpg"></div>	
+                        <div class="grid-item"><img src="images/photo/7.jpg"></div>	
+                        <div class="grid-item"><img src="images/photo/4.jpg"></div>	
+                        <div class="grid-item"><img src="images/photo/10.jpg"></div>	
+                        <div class="grid-item"><img src="images/photo/17.jpg"></div>	
+                        <div class="grid-item"><img src="images/photo/2.jpg"></div>	
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+    </section>
+    <footer class="footer">
+        <p>Design by: 少年 2016-02-24</p>
+
+    </footer>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/masonry.pkgd.js"></script>
+    <script>
+    $('.photo-box .grid').masonry({
+        columnWidth:200,
+        itemSelector:'.grid-item',
+        gutter:40
+    });
+    
+    
+    </script>
+</body>
+</html>
